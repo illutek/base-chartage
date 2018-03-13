@@ -1,0 +1,40 @@
+//================================
+// @@ ++ Navigation
+//================================
+
+/* navigatie
+=========================================*/
+#main_menu {
+  padding: 5px 15px 5px 15px;
+  margin: 175px 10px 15px 10px;
+}
+
+#main_menu a, #main_menu a:visited {
+  color: #333;
+}
+
+#main_menu ul li.leaf {
+  list-style-image: none;
+  float: left;
+}
+
+#main_menu ul.menu li.leaf {
+  font-size: 15px;
+  margin-left: 10px;
+  list-style-type: none;
+
+}
+
+#main_menu ul.menu li.leaf a:link {
+  text-decoration: none;
+
+  padding-left: 10px;
+}
+
+#main_menu ul.menu li.leaf a:hover, #main_menu ul.menu li.leaf a.active {
+  color: #b27d00;
+}
+
+select.tinynav {
+  padding: 5px 0px 5px 0px;
+}

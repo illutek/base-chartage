@@ -9,6 +9,7 @@ regions[left] 			= 	Linker zijbalk
 regions[main_menu] 		= 	Hoofdmenu
 regions[slider]			= 	Slider
 regions[content] 		= 	Content
+regions[content-msg] 	= 	Content MSG
 regions[content_bottom]	=	Content bottom
 regions[footer_left] 	= 	Voet links
 regions[footer_midle] 	= 	Voet midden

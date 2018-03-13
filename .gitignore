@@ -1,2 +1,6 @@
 .idea/*
-sass/*
+
+node_modules
+css/
+build/
+dist/

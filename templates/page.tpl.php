@@ -20,6 +20,7 @@
 			<?php print render($page['slider']); ?>
         </div>
         <?php endif; ?>
+
         <div id="content">
         <?php //print $breadcrumb; ?>           
             <a id="main-content"></a>          
@@ -37,9 +38,10 @@
             <?php print render($action_links); ?></ul>
             <?php endif; ?>           
             
-            <div class="clearfix"> 
-                      
+            <div class="clearfix">
             	<?php print render($page['content']); ?>
+                <?php print render($page['content-msg']); ?>
+
             </div>	<!-- /clearfix-->		
 			<?php if ($page['content_bottom']): ?>
         	<div id="content_bottom">        	

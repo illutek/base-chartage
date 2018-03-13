@@ -1,0 +1,236 @@
+//================================
+// @@ ++ Mediaquery's
+//================================
+
+/* Smaller than standard 1370 (devices and browsers) */
+@media only screen and (max-width: 1370px) {
+  /*body {
+    background-image: url(../images/background_1400.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  */
+
+  .container {
+    left: 0!important;
+
+  }
+
+  #site_name {
+    left: 200px;
+  }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /*body {
+    background-image: url(../images/background_1000.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  */
+
+  .container {
+    left: 10px;
+  }
+
+  #site_name {
+    left: 50px;
+    height: 150px;
+  }
+
+  #main_menu {
+    margin: 160px 10px 15px 10px;
+  }
+
+  #slider {
+    display: none;
+  }
+
+  #galleriffic {
+    width: 680px;
+  }
+
+  #galleriffic .content {
+    float: left;
+    width: 390px;
+  }
+
+  #galleriffic #thumbs {
+    width: 260px;
+  }
+
+  #galleriffic ul.thumbs li {
+    margin: 3px 5px 3px 0;
+  }
+}
+
+/* All Mobile Sizes (devices and browser)  voor de Nexus 7 portret*/
+@media only screen and (max-width: 767px) {
+  /*body {
+    background-image: none;
+  }*/
+
+  #site_name {
+    left: 50px;
+    height: 80px;
+  }
+
+  #slider {
+    display: none;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  img {
+    width: 85%;
+    height: auto;
+  }
+
+  #main_menu {
+    margin: 115px 10px 15px 10px;
+    background-image: url(../images/trans_background.png);
+  }
+
+  .container {
+    position: relative;
+    left: 25px!important;
+  }
+
+  #wrapper_content {
+    padding-top: 35px;
+    margin-top: 5px;
+  }
+
+  #wrapper_content, #wrapper_bottom {
+    padding: 15px 15px 20px 15px;
+  }
+
+  /*opmaak galleriffic */
+  #galleriffic #thumbs {
+    float: left;
+    margin-top: 20px;
+    padding: 0px 10px 0px 0px;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+
+  #galleriffic {
+    width: 510px;
+  }
+
+  #galleriffic .content {
+    width: 500px;
+    float: left;
+  }
+
+  #galleriffic .ss-controls {
+    font-size: 20px;
+    padding: 0px 0px 8px 0px;
+  }
+
+  #galleriffic .nav-controls {
+    float: right;
+    padding: 0px 0px 5px 0px;
+    margin-right: 80px;
+    font-size: 28px;
+  }
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 767px) and (max-width: 980px) {
+  /*body {
+    background-image: url(../images/background_1000.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  */
+
+  #galleriffic .content {
+    width: 350px;
+    float: left;
+  }
+
+  #galleriffic span.image-wrapper img {
+    width: 380px;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  .container {
+    left: 10px;
+  }
+
+  #site_name {
+    width: 80%;
+    left: 50px;
+    height: 70px;
+  }
+
+  #main_menu {
+    margin: 75px 10px 15px 10px;
+  }
+
+  #wrapper_content {
+    margin-top: 5px;
+  }
+
+  .sub-jewelery-img {
+    float: left;
+    width: 150px;
+  }
+
+  /*opmaak galleriffic */
+  #galleriffic #thumbs {
+    float: left;
+    margin-top: 20px;
+    padding: 0px 10px 0px 0px;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+
+  #galleriffic {
+    width: 320px;
+  }
+
+  #galleriffic .content {
+    width: 350px;
+    float: left;
+  }
+
+  #galleriffic .ss-controls {
+    font-size: 20px;
+    padding: 0px 0px 8px 0px;
+  }
+
+  #galleriffic .content a, #galleriffic .navigation a {
+    padding-right: 5px;
+  }
+
+  #galleriffic .nav-controls {
+    float: right;
+    padding: 0px 0px 8px 0px;
+    margin-right: 50px;
+    font-size: 28px;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 321px) {
+  .container {
+    position: relative;
+    left: 0!important;
+  }
+}
