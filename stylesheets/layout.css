@@ -1,0 +1,120 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 1370 (devices and browsers) */
+	@media only screen and (max-width: 1370px) {
+		body {
+			background-image: url(../images/background_1400.jpg);
+		}
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		body {
+			background-image: url(../images/background_phone.jpg);
+		}
+		nav {
+			background-color: transparent;
+			-moz-box-shadow: 0px 0px 0px #9e5b03;
+			-webkit-box-shadow: 0px 0px 0px #9e5b03;
+			box-shadow: 0px 0px 0px #9e5b03;
+			min-height: 20px;
+			width: 200px;
+			position: relative;
+			left: 120px;
+			top: 100px;
+			z-index: 100;
+		}
+		#site_name {
+			left: 50px;
+			height: 120px;
+		}		
+		#site_name img {
+			height: auto;
+			max-width: 250px;
+		}
+		img {
+			max-width: 50%;
+			height:auto;
+		}
+			
+		#sun {
+			background-image: url(../images/sun_300.png);
+			height: 267px;
+			width: 300px;
+		}
+		.container {
+			position: relative;	
+			left: 30px;	
+		}
+		#wrapper_content {
+			padding-top: 35px;
+			margin-top: 105px;
+		}
+		#wrapper_content, #wrapper_bottom {
+			padding: 15px 15px 20px 15px;
+		}
+		
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 767px) and (max-width: 980px) {
+		nav {
+			position: fixed;
+			left: 10px;
+			top: 140px;
+		}		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.container {
+			position: relative;				
+		}
+		}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

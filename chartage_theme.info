@@ -1,0 +1,15 @@
+name = chartage_theme
+description = Chartage juwelen
+core = 7.x
+
+stylesheets[all][] = stylesheets/views_galleriffic_default.css
+stylesheets[all][] = css/style.css
+
+regions[left] 			= 	Linker zijbalk
+regions[main_menu] 		= 	Hoofdmenu
+regions[slider]			= 	Slider
+regions[content] 		= 	Content
+regions[content_bottom]	=	Content bottom
+regions[footer_left] 	= 	Voet links
+regions[footer_midle] 	= 	Voet midden
+regions[footer_right] 	= 	Voet rechts
