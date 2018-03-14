@@ -5,6 +5,7 @@
 
 #galleriffic {
   width: 800px;
+  min-height: 400px;
 }
 #galleriffic .content {
   width: 505px;
@@ -25,6 +26,7 @@
 }
 #slideshow-container {
   position: relative;
+  min-height: 360px;
   clear: both;
   padding: 0 0 10px 0;
 }
